@@ -20,7 +20,11 @@
                 display: block;
                 cursor: pointer;
                 
-                &::after {
+                @media (max-width: 768px) {
+                    padding: 40px;;
+                }
+
+                span::after {
                     content: '+';
                     position: absolute;
                     top: 0;
@@ -54,7 +58,7 @@
             }
 
             &--is--open {
-                .faq__questions__item__question::after {
+                span::after {
                     content: '-';
                 }
 

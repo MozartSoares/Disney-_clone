@@ -47,9 +47,18 @@ function ocultaHeader() {
 
 function abreOuFechaResposta(elemento) {
     const classe = 'faq__questions__item--is--open'
-    const elementoPai = elemento.target.parentNode
+    const elementoPai = findClosestParent(elemento.target, 'faq__questions__item')
 
     elementoPai.classList.toggle(classe)
+}
+
+function findClosestParent(element, className) {
+    let currentElement = element;
+
+    while (currentElement && !currentElement.classList.contains(className)) {
+        currentElement = currentElement.parentNode;
+        return currentElement;
+    }
 }
 
 function removeBotaoAtivo() {
