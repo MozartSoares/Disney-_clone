@@ -13,10 +13,6 @@ Este projeto é um clone da landing page principal do Disney+, recriando a exper
 - **JavaScript:** Adição de interatividade e dinamismo à página.
 - **Gulp.js:** Ferramenta de automação de tarefas para otimizar o desenvolvimento, incluindo minificação de imagens, compressão de arquivos e uglificação de scripts JavaScript.
 
-## Como Contribuir 🤝
-
-Contribuições são bem-vindas! Se você tem sugestões de melhorias ou encontrou algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
 ## Como Executar Localmente 🏠
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/disney-plus-clone.git`
