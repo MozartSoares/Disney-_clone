@@ -1,4 +1,4 @@
-# Disney+ Landing Page Clone 🚀
+# Disney+ Clone 🚀
 
 Bem-vindo ao projeto de clone da landing page principal do Disney+! Este projeto foi criado com o intuito de exercitar os princípios de organização de código e automação de tarefas, utilizando os padrões de CSS BEM. As ferramentas principais incluem HTML, CSS (SCSS), JavaScript e Gulp.js para automação de tarefas como minificação de imagens, compressão de arquivos e uglificação dos scripts JavaScript.
 
@@ -19,4 +19,4 @@ Este projeto é um clone da landing page principal do Disney+, recriando a exper
 2. Instale as dependências: `npm install`
 3. Execute o projeto localmente: `npm start`
 
-Sinta-se à vontade para explorar o Disney+ Landing Page Clone! 🌟
+Sinta-se à vontade para explorar o Clone! 🌟
